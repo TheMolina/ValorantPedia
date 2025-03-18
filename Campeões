@@ -1,0 +1,31 @@
+class Campeao:
+    def __init__(self, nome, classe, habilidades):
+        self.nome = nome
+        self.classe = classe
+        self.habilidades = habilidades
+
+# Criando a lista de campeões
+campeoes = [
+    Campeao("Brimstone", "Controller", ["Incendiary", "Sky Smoke", "Stim Beacon", "Orbital Strike"]),
+    Campeao("Viper", "Controller", ["Snake Bite", "Toxic Screen", "Poison Cloud", "Viper's Pit"]),
+    Campeao("Jett", "Duelist", ["Cloudburst", "Updraft", "Tailwind", "Bladestorm"]),
+    Campeao("Phoenix", "Duelist", ["Blaze", "Curveball", "Hot Hands", "Run It Back"]),
+    Campeao("Sage", "Sentinel", ["Barrier Orb", "Slow Orb", "Healing Orb", "Resurrection"]),
+    Campeao("Cypher", "Sentinel", ["Trapwire", "Cyber Cage", "Spycam", "Neural Theft"]),
+    Campeao("Omen", "Controller", ["Shrouded Step", "Paranoia", "Dark Cover", "From the Shadows"]),
+    Campeao("Raze", "Duelist", ["Boom Bot", "Blast Pack", "Paint Shells", "Showstopper"]),
+    Campeao("Reyna", "Duelist", ["Leer", "Dismissing", "Devour", "Empress"]),
+    Campeao("Breach", "Initiator", ["Flashpoint", "Aftershock", "Fault Line", "Rolling Thunder"]),
+    Campeao("Sova", "Initiator", ["Owl Drone", "Shock Bolt", "Recon Bolt", "Hunter's Fury"]),
+    Campeao("Killjoy", "Sentinel", ["Nanoswarm", "Lockdown", "Turret", "Lockdown"]),
+    Campeao("Astra", "Controller", ["Gravity Well", "Nova Pulse", "Nebula", "Astral Form"]),
+    Campeao("KAY/O", "Initiator", ["FRAG/ment", "ZERO/point", "FLASH/drive", "NULL/cmd"]),
+    Campeao("Yoru", "Duelist", ["Blindside", "Gatecrash", "Fakeout", "Dimensional Drift"])
+]
+
+# Exibindo as informações dos campeões
+for campeao in campeoes:
+    print(f"Nome: {campeao.nome}")
+    print(f"Classe: {campeao.classe}")
+    print(f"Habilidades: {', '.join(campeao.habilidades)}")
+    print("-" * 30)
