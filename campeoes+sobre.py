@@ -60,7 +60,70 @@ campeoes = [
         "Cypher é um mestre do controle e da vigilância, mantendo os inimigos em alerta.",
         "Médio"
     ),
-    # Continue para outros campeões...
+    Campeao(
+        "Omen", 
+        "Controller", 
+        ["Shrouded Step", "Paranoia", "Dark Cover", "From the Shadows"],
+        "Omen é um ser misterioso, capaz de se mover pelas sombras e manipular a percepção dos inimigos.",
+        "Alto"
+    ),
+    Campeao(
+        "Raze", 
+        "Duelist", 
+        ["Boom Bot", "Blast Pack", "Paint Shells", "Showstopper"],
+        "Raze é uma especialista em explosivos, utilizando bombas e granadas para causar destruição em massa.",
+        "Alto"
+    ),
+    Campeao(
+        "Reyna", 
+        "Duelist", 
+        ["Leer", "Dismissing", "Devour", "Empress"],
+        "Reyna é uma guerreira feroz que se fortalece à medida que elimina seus inimigos.",
+        "Alto"
+    ),
+    Campeao(
+        "Breach", 
+        "Initiator", 
+        ["Flashpoint", "Aftershock", "Fault Line", "Rolling Thunder"],
+        "Breach é um especialista em iniciar combates, utilizando suas habilidades para desestabilizar os inimigos.",
+        "Médio"
+    ),
+    Campeao(
+        "Sova", 
+        "Initiator", 
+        ["Owl Drone", "Shock Bolt", "Recon Bolt", "Hunter's Fury"],
+        "Sova é um mestre da vigilância, rastreando e revelando os inimigos com suas habilidades de precisão.",
+        "Alto"
+    ),
+    Campeao(
+        "Killjoy", 
+        "Sentinel", 
+        ["Nanoswarm", "Lockdown", "Turret", "Lockdown"],
+        "Killjoy é uma inventora inteligente, capaz de usar tecnologia para controlar o campo de batalha.",
+        "Médio"
+    ),
+    Campeao(
+        "Astra", 
+        "Controller", 
+        ["Gravity Well", "Nova Pulse", "Nebula", "Astral Form"],
+        "Astra é uma controladora cósmica que manipula as estrelas para afetar o campo de batalha.",
+        "Alto"
+    ),
+    Campeao(
+        "KAY/O", 
+        "Initiator", 
+        ["FRAG/ment", "ZERO/point", "FLASH/drive", "NULL/cmd"],
+        "KAY/O é um ex-soldado robótico com habilidades voltadas para neutralizar as habilidades inimigas.",
+        "Médio"
+    ),
+    Campeao(
+        "Yoru", 
+        "Duelist", 
+        ["Blindside", "Gatecrash", "Fakeout", "Dimensional Drift"],
+        "Yoru é um duelista enigmático, capaz de manipular portais e enganar os inimigos.",
+        "Alto"
+    )
+
 ]
 
 # Exibindo as informações dos campeões
